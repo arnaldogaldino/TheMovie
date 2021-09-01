@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Services", "1 - Services", "{05F0F419-002D-4A95-8861-87A6909F4510}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{1AA4EA1E-1BAF-49B8-B6DE-09BB17661CD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{4C3C6B1F-FFD0-4ADB-BF5C-CCFC990CC0B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 - Data", "3.1 - Data", "{6A2E54A0-FCAE-418B-B31B-55335785341E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests", "5 - Tests", "{F04BCA87-301E-4778-A844-AA7F47A81B78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{5887D06B-4EC3-4D1C-A745-DEF3805A0A95}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheMovie.Infrastructure.Data", "server\src\TheMovie.Infrastructure.Data\TheMovie.Infrastructure.Data.csproj", "{A0ACDFC2-3C92-43F5-896D-28562D0EB1C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheMovie.Domain", "server\src\TheMovie.Domain\TheMovie.Domain.csproj", "{3A7B0888-46B8-4FED-A3DF-84A9D9245611}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheMovie.Application", "server\src\TheMovie.Application\TheMovie.Application.csproj", "{F2DB1976-4FA2-4A56-BCA0-8F17A3D6F899}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheMovie.Service", "server\src\TheMovie.Service\TheMovie.Service.csproj", "{2CC4133D-09A9-4E1E-A0BB-3F7B25DC18CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0ACDFC2-3C92-43F5-896D-28562D0EB1C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0ACDFC2-3C92-43F5-896D-28562D0EB1C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0ACDFC2-3C92-43F5-896D-28562D0EB1C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0ACDFC2-3C92-43F5-896D-28562D0EB1C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A7B0888-46B8-4FED-A3DF-84A9D9245611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A7B0888-46B8-4FED-A3DF-84A9D9245611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A7B0888-46B8-4FED-A3DF-84A9D9245611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A7B0888-46B8-4FED-A3DF-84A9D9245611}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2DB1976-4FA2-4A56-BCA0-8F17A3D6F899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2DB1976-4FA2-4A56-BCA0-8F17A3D6F899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2DB1976-4FA2-4A56-BCA0-8F17A3D6F899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2DB1976-4FA2-4A56-BCA0-8F17A3D6F899}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CC4133D-09A9-4E1E-A0BB-3F7B25DC18CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CC4133D-09A9-4E1E-A0BB-3F7B25DC18CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CC4133D-09A9-4E1E-A0BB-3F7B25DC18CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CC4133D-09A9-4E1E-A0BB-3F7B25DC18CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6A2E54A0-FCAE-418B-B31B-55335785341E} = {4C3C6B1F-FFD0-4ADB-BF5C-CCFC990CC0B0}
+		{A0ACDFC2-3C92-43F5-896D-28562D0EB1C6} = {6A2E54A0-FCAE-418B-B31B-55335785341E}
+		{3A7B0888-46B8-4FED-A3DF-84A9D9245611} = {1AA4EA1E-1BAF-49B8-B6DE-09BB17661CD3}
+		{F2DB1976-4FA2-4A56-BCA0-8F17A3D6F899} = {5887D06B-4EC3-4D1C-A745-DEF3805A0A95}
+		{2CC4133D-09A9-4E1E-A0BB-3F7B25DC18CA} = {05F0F419-002D-4A95-8861-87A6909F4510}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D52B23A2-2723-41BF-9F3D-7BB5162B4631}
+	EndGlobalSection
+EndGlobal

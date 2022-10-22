@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = TheMovie.Application
+build_property.ProjectDir = c:\_projetos\TheMovie\server\src\TheMovie.Application\

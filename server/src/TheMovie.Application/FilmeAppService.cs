@@ -30,7 +30,16 @@ namespace TheMovie.Application
         public IEnumerable<Filme> Favoritos()
         {
             // Comentario do rafael
+            // Comentario do Arnaldo
             return this.filmeService.Favoritos();
+        }
+
+        public void ArnaldoTeste1() {
+
+        }
+        
+        public void ArnaldoTeste2() {
+
         }
         
         public void RafaelTeste2() {

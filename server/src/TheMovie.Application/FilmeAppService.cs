@@ -49,6 +49,9 @@ namespace TheMovie.Application
         public void RafaelTeste3() {
 
     }
+    public void RafaeelTeste4() {
+        
+    }
     }
 
 }
